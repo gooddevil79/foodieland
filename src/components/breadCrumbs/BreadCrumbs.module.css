@@ -1,0 +1,10 @@
+.crumb {
+  text-decoration: none;
+  color: crimson;
+}
+.breadCrumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

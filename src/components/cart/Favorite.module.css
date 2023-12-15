@@ -1,0 +1,33 @@
+.FavoriteItem {
+  display: grid;
+  align-items: center;
+  padding: 10px;
+}
+.FavoriteItemImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FavoriteItemImage img {
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+}
+.FavoriteItemText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FavoriteItemText h3,
+h2 {
+  font-family: 'IranSans';
+}
+.favoriteItemAction {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+}
+.favoriteItemAction button {
+  font-family: 'YekanP';
+}

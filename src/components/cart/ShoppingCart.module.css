@@ -1,0 +1,79 @@
+.shoppingCartItem {
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  padding: 10px;
+}
+.shoppingCartItemAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  gap: 10px;
+  position: absolute;
+  left: 10px;
+  bottom: 8px;
+}
+
+.topShoppingCartItem {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.shoppingCartItemText {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+}
+.shoppingCartItemPrice {
+  margin-right: auto;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: 'IranSans';
+}
+.shoppingCartItemPrice img {
+  width: 25px;
+}
+
+.shoppingCartItemImage {
+  display: flex;
+  height: 100px;
+  width: 20%;
+}
+.shoppingCartItemImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .shoppingCartItemPrice {
+    font-size: 20px;
+  }
+  .shoppingCartItemText {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .shoppingCartItem {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .shoppingCartItemImage {
+    width: 50%;
+  }
+  .shoppingCartItemText {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .shoppingCartItemText h2 {
+    margin-left: 5px;
+  }
+}

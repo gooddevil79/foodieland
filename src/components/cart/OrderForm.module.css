@@ -1,0 +1,17 @@
+.form {
+  direction: rtl;
+  padding: 15px;
+}
+.form label {
+  font-family: 'YekanP';
+  font-size: 15px !important;
+}
+.form input {
+  font-family: 'IranSans';
+  font-size: 15px;
+}
+
+.form textarea {
+  font-family: 'IranSans';
+  font-size: 15px;
+}

@@ -1,0 +1,38 @@
+.foodImage {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foodImage img {
+  width: 100%;
+  height: 260px;
+}
+.foodTextDetils {
+  padding: 10px;
+  text-align: right;
+  height: 260px;
+}
+.foodTextDetils p,
+h4 {
+  font-family: 'IranSans' !important;
+}
+.actionCenterPice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foodTextDetils p {
+  margin-top: 20px;
+  color: #777;
+}
+.foodItemAction {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  width: 150px;
+}
+.foodItemAction h2 {
+  width: 20px;
+  text-align: center;
+}

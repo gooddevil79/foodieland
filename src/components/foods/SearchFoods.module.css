@@ -1,0 +1,15 @@
+/* search */
+.search {
+  background-color: #e6e6e68b;
+  direction: ltr;
+}
+
+.searchInput:focus {
+  border: 1px solid;
+}
+
+@media screen and (max-width: 720px) {
+  .search {
+    display: none;
+  }
+}

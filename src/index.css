@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: 'YekanP';
+  src: url('./assets/fonts/YEKAN\ PLUS.TTF');
+}
+@font-face {
+  font-family: 'IranSans';
+  /* src: url('./assets/fonts/Iranian\ Sans.ttf'); */
+  src: url('./assets/fonts/Sans\ a4fran3.woff');
+}
+body {
+  margin: 0;
+  font-family: 'YekanP', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  direction: rtl;
+}
+main {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.toast-styles {
+  font-family: 'IranSans';
+}
+.MuiFormHelperText-root {
+  color: red !important;
+  font-family: 'IranSans' !important;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}

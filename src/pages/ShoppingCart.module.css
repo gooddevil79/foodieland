@@ -1,0 +1,37 @@
+.ShoppingCartContainer {
+  overflow-x: auto;
+  height: 390px;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  direction: ltr;
+}
+.ShoppingCartContainer::-webkit-scrollbar {
+  width: 5px;
+  position: absolute;
+  right: 0;
+}
+.ShoppingCartContainer::-webkit-scrollbar-thumb {
+  background-color: crimson;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 100px;
+}
+.ShoppingCartOrderForm {
+}
+.ShoppingCartDetials {
+  width: 100%;
+  display: grid;
+  justify-content: right;
+  padding-right: 10px;
+}
+
+.ShoppingCartDetialsSumPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
